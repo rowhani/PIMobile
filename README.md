@@ -1,6 +1,6 @@
 # PIMobile
 
-PIMobile is a demo hybrid mobile application targeted for Android, iOS, Blackberry, and Windows Phone.
+PIMobile is a hybrid demo mobile application targeted for Android, iOS, Blackberry, and Windows Phone.
 
 This is mainly written using **Appcelerator Titanium** and **Alloy** in *2012*. 
 
