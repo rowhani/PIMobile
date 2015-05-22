@@ -1,0 +1,41 @@
+"TextField": {
+	width: 250, 
+	top: Alloy.Globals.defaultMargin
+},
+
+".container": {
+	layout: 'vertical'
+},
+
+"#notificationSwitchBar": {
+	layout: 'horizontal',
+	top: Alloy.Globals.defaultMargin,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	backgroundDisabledColor: 'gray'
+},
+
+"#pushNotificationSwitch": {
+	left: Alloy.Globals.defaultMargin
+},
+
+"#pushNotificationSwitch[platform=android]": { 
+	style: Ti.UI.Android.SWITCH_STYLE_CHECKBOX
+},
+
+".loginPanel": {
+	layout: 'vertical',
+	top: 50,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+},
+
+".loginControlBar": {
+	layout: 'horizontal',
+	top: Alloy.Globals.defaultMargin,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}

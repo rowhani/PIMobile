@@ -1,0 +1,36 @@
+"#WebsiteViewBar": {
+	layout: 'horizontal',
+	horizontalWrap: false
+},
+
+"#WebsiteIcon": {
+	width: 64,
+	height: 64,
+	left: Alloy.Globals.defaultMargin 
+},
+
+"#TitlePanel": {
+	layout: 'vertical',
+	height: Ti.UI.SIZE,
+	left: Alloy.Globals.defaultMargin 
+},
+
+"#WebsiteName": {
+	left: Alloy.Globals.defaultMargin,
+	width: Ti.UI.SIZE
+},
+
+"#WebsiteStatusDescription": {
+	left: Alloy.Globals.defaultMargin,
+	width: Ti.UI.SIZE
+},
+
+"#WebsiteStatusIcon": {
+	right: Alloy.Globals.defaultMargin,
+	width: Ti.UI.SIZE
+},
+
+"#LeftPanel": {
+	layout: 'horizontal',
+	horizontalWrap: false
+}

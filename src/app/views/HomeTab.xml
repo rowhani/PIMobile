@@ -1,0 +1,9 @@
+<Alloy>
+    <Window id="window"> 
+    	<Widget src="TopSearchBar" id="TopSearchBar"/>   	
+    	<ScrollView class="container">
+			<TableView id="websitesTable" onClick="goToDetails" />
+			<View id="continentView" />
+		</ScrollView>
+    </Window>
+</Alloy> 

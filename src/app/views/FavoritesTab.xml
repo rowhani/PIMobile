@@ -1,0 +1,14 @@
+<Alloy>
+	<Collection src="Favorite" />
+	<Window id="window" class="container">
+		<Widget src="TopSearchBar" id="TopSearchBar"/>  
+		<TableView id="websitesTable" dataCollection="Favorite" onClick="goToDetails">
+			<TableViewRow hasChild="true" domainName="{WebsiteName}">
+				<View id="WebsiteViewBar">
+					<ImageView id="WebsiteIcon" image="{WebsiteIcon}"/>
+					<Label id="WebsiteName" text="{WebsiteName}"/>	
+				</View>
+			</TableViewRow>
+		</TableView>
+    </Window>
+</Alloy> 

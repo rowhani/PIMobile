@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="window" class="container">
+		<Widget src="TopSearchBar" id="TopSearchBar"/>  
+		<View id="titleBar">
+			<Label id="domainName" class="heading1" />
+			<ImageView id="favoriteButton" image="/images/FavoritesInactive.png" onClick="changeFavoriteStatus" />
+		</View>
+		<ScrollView id="detailsView" />
+    </Window>
+</Alloy>

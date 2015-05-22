@@ -1,0 +1,27 @@
+".container": {
+	layout: "vertical",
+	showVerticalScrollIndicator: true,
+	showHorizontalScrollIndicator: false,
+	width: Ti.UI.FILL
+},
+
+"#window": {
+	layout: "vertical"
+},
+
+"#websitesTable": {
+	top: Alloy.Globals.defaultMargin,
+	left: Alloy.Globals.defaultMargin,
+	right: Alloy.Globals.defaultMargin,
+	height: Ti.UI.SIZE,
+	borderColor: '#000',
+	borderWidth: Alloy.Globals.defaultBorderWidth
+},
+
+"#continentView": {
+	top: Alloy.Globals.defaultMargin,
+	right: Alloy.Globals.defaultMargin,
+	height: Ti.UI.SIZE,
+	layout: 'horizontal',
+	horizontalWrap: false
+}

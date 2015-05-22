@@ -1,0 +1,51 @@
+"Label": {
+	color: '#000',
+	font: {
+		fontSize: 18,
+		fontFamily: 'Helvetica Neue'
+	},
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+},
+
+"Button": {
+	borderColor: '#000',
+	borderWidth: Alloy.Globals.defaultBorderWidth
+},
+
+"Switch": {
+	borderColor: '#000',
+	borderWidth: Alloy.Globals.defaultBorderWidth
+},
+
+"TextField": {
+	borderColor: '#000',
+	borderWidth: Alloy.Globals.defaultBorderWidth
+},
+
+".container": {
+	backgroundColor: '#fff'
+},
+
+".link": {
+	color: "blue",
+	font: {
+		fontSize: 20,		
+		fontWeight: 'bold'
+	}
+},
+
+".untitledWindow": {
+	backgroundColor: "#fff",
+	navBarHidden: true,
+	modal: true
+},
+
+".heading1": {
+	top: Alloy.Globals.defaultMargin,
+	left: Alloy.Globals.defaultMargin,
+	font: {
+		fontSize: 36,
+		fontWeight: 'bold'
+	}
+},

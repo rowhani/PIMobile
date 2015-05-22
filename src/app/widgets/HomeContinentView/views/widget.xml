@@ -1,0 +1,7 @@
+<Alloy>
+    <View id="ContinentView">
+    	<Label id="ContinentName"/>
+    	<Label id="UpSitesText" />
+		<Label id="DownSitesText" />
+    </View>
+</Alloy>

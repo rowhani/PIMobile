@@ -1,0 +1,12 @@
+<Alloy>
+	<View id="WebsiteViewBar">
+		<View id="LeftPanel">
+			<ImageView id="WebsiteIcon"/>
+			<View id="TitlePanel">
+				<Label id="WebsiteName"/>	
+				<Label id="WebsiteStatusDescription"/>
+			</View>
+		</View>
+		<ImageView id="WebsiteStatusIcon"/>
+	</View>
+</Alloy>

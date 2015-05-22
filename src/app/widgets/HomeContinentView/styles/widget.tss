@@ -1,0 +1,24 @@
+"View": {
+	left: Alloy.Globals.defaultMargin,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	layout: 'vertical',
+	borderColor: '#000',
+	borderWidth: Alloy.Globals.defaultBorderWidth
+},
+
+"Label": {
+	width: Ti.UI.FILL,
+	textAlign: 'center'
+},
+
+"#ContinentName": {
+ 	backgroundColor: '#a9a9a9', 
+	color: '#fff', 
+	font: {
+		fontWeight: 'bold'
+	},
+	width: Ti.UI.FILL,
+	textAlign: 'center'
+}
+

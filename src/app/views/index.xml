@@ -1,0 +1,13 @@
+<Alloy>		
+	<TabGroup onFocus="tabGroupFocus" onClose="tabGroupClose">
+		<Tab title="Home" icon="/images/HomeTab.png" id="HomeTab">			
+			<Require src="HomeTab" />
+		</Tab>
+		<Tab title="Favorites" icon="/images/FavoritesTab.png">
+			<Require src="FavoritesTab" />
+		</Tab>
+		<Tab title="Settings" icon="/images/SettingsTab.png">
+			<Require src="SettingsTab" />
+		</Tab>
+	</TabGroup>
+</Alloy>

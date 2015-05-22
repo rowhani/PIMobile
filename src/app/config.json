@@ -1,0 +1,13 @@
+{
+    "global": {},
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:ios": {},
+    "os:android": {},
+    "dependencies": {
+        "TopSearchBar": "1.0",
+        "HomeWebsiteViewBar": "1.0",
+        "HomeContinentView": "1.0"
+    }
+}

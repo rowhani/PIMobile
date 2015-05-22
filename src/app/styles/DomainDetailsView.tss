@@ -1,0 +1,31 @@
+"Label": {
+	top: Alloy.Globals.defaultMargin,
+	left: Alloy.Globals.defaultMargin
+},
+
+"#window": {
+	layout: "vertical"
+},
+
+"ScrollView": {
+	layout: 'vertical',
+	top: 20,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+},
+
+".container": {
+	top: Alloy.Globals.defaultMargin,
+	layout: 'vertical'
+},
+
+"#titleBar": {
+	height: Ti.UI.SIZE
+},
+
+"#favoriteButton": {
+	top: Alloy.Globals.defaultMargin,
+	right: Alloy.Globals.defaultMargin,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+}

@@ -1,0 +1,12 @@
+{
+	"websites": [
+		{
+			"WebsiteIcon": "http://files.softicons.com/download/internet-icons/social-networking-icons-by-wpzoom/png/64/yahoo.png",
+			"WebsiteName": "yahoo.com"
+		},
+		{
+			"WebsiteIcon": "http://files.softicons.com/download/internet-icons/social-networking-icons-by-wpzoom/png/64/msn.png",
+			"WebsiteName": "msn.com"
+		}
+	]
+}

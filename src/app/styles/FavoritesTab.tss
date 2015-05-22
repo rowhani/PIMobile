@@ -1,0 +1,31 @@
+"TableViewRow": {
+	height: 70
+},
+
+"#window": {
+	layout: "vertical"
+},
+
+"#websitesTable": {
+	top: Alloy.Globals.defaultMargin,
+	width: Ti.UI.FILL,
+	scrollable: true,
+	showVerticalScrollIndicator: true,
+	showHorizontalScrollIndicator: false
+},
+
+"#WebsiteViewBar": {
+	layout: 'horizontal',
+	horizontalWrap: false
+},
+
+"#WebsiteIcon": {
+	width: 64,
+	height: 64,
+	left: Alloy.Globals.defaultMargin 
+},
+
+"#WebsiteName": {
+	left: Alloy.Globals.defaultMargin,
+	height: Ti.UI.SIZE
+}

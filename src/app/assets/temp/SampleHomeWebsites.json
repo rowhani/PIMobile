@@ -1,0 +1,28 @@
+{
+	"websites": [
+		{
+			"WebsiteIcon": "http://files.softicons.com/download/internet-icons/social-networking-icons-by-wpzoom/png/64/yahoo.png",
+			"WebsiteName": "yahoo.com",
+			"WebsiteStatusDescription": "Up at 10:00",
+			"WebsiteStatus": "true"
+		},
+		{
+			"WebsiteIcon": "http://files.softicons.com/download/internet-icons/social-networking-icons-by-wpzoom/png/64/google.png",
+			"WebsiteName": "google.com",
+			"WebsiteStatusDescription": "Down at 10:00",
+			"WebsiteStatus": "false"
+		},
+		{
+			"WebsiteIcon": "http://files.softicons.com/download/internet-icons/social-networking-icons-by-wpzoom/png/64/msn.png",
+			"WebsiteName": "msn.com",
+			"WebsiteStatusDescription": "Up at 10:00",
+			"WebsiteStatus": "true"
+		},
+		{
+			"WebsiteIcon": "http://files.softicons.com/download/internet-icons/social-networking-icons-by-wpzoom/png/64/facebook.png",
+			"WebsiteName": "facebook.com",
+			"WebsiteStatusDescription": "Down at 10:00",
+			"WebsiteStatus": "false"
+		}
+	]
+}

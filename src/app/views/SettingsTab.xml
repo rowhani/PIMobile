@@ -1,0 +1,17 @@
+<Alloy>
+	<Window class="container">
+		<View id="notificationSwitchBar">
+			<Label>Push Notification Alerts</Label>
+			<Switch id="pushNotificationSwitch" onChange="pushNotificationStatusChanged"/>
+		</View>
+		<View class="loginPanel">
+			<TextField id="username" hintText="Username"/>
+			<TextField id="password" hintText="Password"/>
+			<View class="loginControlBar">
+				<Button id="login" title="Login" onClick="login"/>
+				<Label left="10">or</Label>
+				<Label class="link" left="10" onClick="signup">Create Account</Label>
+			</View>
+		</View>
+	</Window>
+</Alloy>

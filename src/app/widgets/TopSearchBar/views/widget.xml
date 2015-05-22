@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="topSearchBar">
+		<TextField id="topSearchTextField" onReturn="goToDetails" onFocus="topSearchTextFieldFocus" />
+	</View>
+</Alloy>
